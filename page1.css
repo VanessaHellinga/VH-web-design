@@ -394,6 +394,84 @@ section {
 
 
 
+/* MEDIA QUERIES */
+@media (max-width: 1180px) {
+   body {
+       background: red;
+   }
+   /* NAV BAR */
+    .navbar {
+        height: 28vw;
+        top: -28vw;
+    }
+    .mini-nav-link {
+        font-size: 3.5rem; 
+    }
+    .menu.pull {
+        top: 30vw;
+    }
+    .menu::before {
+        height: 31.1vw;
+        top: -31vw; 
+    }
+}
+@media (max-width: 960px) {
+    body {
+        background: yellow;
+    }
+    /* NAVBAR */
+    .menu {
+        right: .5rem;
+    }
+    /* ABOUT */
+    .about-text {
+        font-size: 3rem;
+        line-height: 5rem;
+    }
+}
+
+@media (max-width: 850px) {
+    body {
+        background: green;
+    }
+    /* COMMON STYLES */
+    .header {
+        font-size: 2.5rem;
+    }
+    /* NAV BAR */
+    .navbar {
+        height: 30vw;
+        top: -30vw;
+    }
+    .mini-nav-link {
+        font-size: 3rem; 
+    }
+    .spidey {
+        width: 75%;
+        padding-left: 1.3rem;
+    }
+    .menu.pull {
+        top: 32vw;
+    }
+    .menu::before {
+        height: 33.1vw;
+        top: -33vw; 
+    }
+    /* ABOUT */
+    .about-text {
+        font-size: 2rem;
+        line-height: 4rem;
+    }
+    /* CONTACT */
+    .email-form {
+        font-size: 1.7rem; 
+    }  
+    .email-sign {
+        font-size: 1.5rem;
+        width: 25%;
+    }
+    
+}
 
 
 

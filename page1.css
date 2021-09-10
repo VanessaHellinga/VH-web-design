@@ -435,27 +435,39 @@ section {
         background: green;
     }
     /* COMMON STYLES */
+    #container {
+        margin: 6.5%;
+        padding: .8rem 3.5rem;
+    }
     .header {
         font-size: 2.5rem;
     }
+    /* LOGO */
+    .invisible-home-link {
+        font-size: 5rem;
+    }
+    .mini-logo {
+        width: 40vw;  
+    }
     /* NAV BAR */
     .navbar {
-        height: 30vw;
-        top: -30vw;
+        height: 42vw;
+        top: -43vw;
     }
     .mini-nav-link {
-        font-size: 3rem; 
+        font-size: 2.5rem; 
+        line-height: 3.5rem;
     }
     .spidey {
-        width: 75%;
-        padding-left: 1.3rem;
+        width: 70%;
+        padding-left: 1.6rem;
     }
     .menu.pull {
-        top: 32vw;
+        top: 44vw;
     }
     .menu::before {
-        height: 33.1vw;
-        top: -33vw; 
+        height: 44.1vw;
+        top: -44vw; 
     }
     /* ABOUT */
     .about-text {
@@ -468,9 +480,29 @@ section {
     }  
     .email-sign {
         font-size: 1.5rem;
-        width: 25%;
+    }  
+}
+@media (max-width: 550px) {
+    body {
+        background: orange;
     }
-    
+    /* COMMON STYLES */
+    #container {
+        margin: 5%;
+        padding: .5rem 3rem;
+    }
+    .header {
+        font-size: 2rem;
+    }
+    /* NAVBAR */
+    .mini-nav-list {
+        height: 30vw;
+    }
+    /* CONTACT */
+    .email-sign {
+        font-size: 1.5rem;
+        width: 30%;
+    }  
 }
 
 

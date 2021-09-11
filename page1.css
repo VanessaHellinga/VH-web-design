@@ -396,9 +396,9 @@ section {
 
 /* MEDIA QUERIES */
 @media (max-width: 1180px) {
-   body {
+   /* body {
        background: red;
-   }
+   } */
    /* NAV BAR */
     .navbar {
         height: 28vw;
@@ -416,9 +416,9 @@ section {
     }
 }
 @media (max-width: 960px) {
-    body {
+    /* body {
         background: yellow;
-    }
+    } */
     /* NAVBAR */
     .menu {
         right: .5rem;
@@ -431,9 +431,9 @@ section {
 }
 
 @media (max-width: 850px) {
-    body {
+    /* body {
         background: green;
-    }
+    } */
     /* COMMON STYLES */
     #container {
         margin: 6.5%;
@@ -483,15 +483,15 @@ section {
     }  
 }
 @media (max-width: 550px) {
-    body {
+    /* body {
         background: orange;
-    }
+    } */
     /* COMMON STYLES */
     #container {
         margin: 5%;
         padding: .5rem 3rem;
     }
-    .header {
+   .header {
         font-size: 2rem;
     }
     /* NAVBAR */
@@ -502,6 +502,86 @@ section {
     .email-sign {
         font-size: 1.5rem;
         width: 30%;
+        padding: 1rem 2rem;
+    }  
+}
+@media (max-width: 470px) {
+    /* body {
+        background: lightblue;
+    } */
+    #container {
+        margin: 2%;
+        padding: .5rem 1.5rem;
+    }
+    /* LOGO */
+    .invisible-home-link {
+        font-size: 4rem;
+    }
+    .mini-logo {
+        width: 50vw;  
+    }
+    /* NAV BAR */
+    .navbar {
+        height: 52vw;
+        top: -53vw;
+    }
+    .spidey {
+        width: 50%;
+        padding-left: 3.1rem;
+    }
+    .menu {
+        right: -2rem;
+    }
+    .menu.pull {
+        top: 56vw;
+        right: -2rem;
+    }
+    .menu::before {
+        height: 56.1vw;
+        top: -56vw; 
+    }
+}
+@media (max-width: 396px) {
+    /* body {
+        background: purple;
+    } */
+    .header {
+        font-size: 2rem;
+    }
+     /* NAV BAR */
+     .navbar {
+        height: 63vw;
+        top: -64vw;
+    }
+    .mini-nav-list {
+        height: 50vw;
+    }
+    .mini-nav-link {
+        font-size: 2rem;
+    }
+    .spidey {
+        width: 30%;
+        padding-left: 4.9rem;
+    }
+    .menu {
+        right: -4rem;
+    }
+    .menu.pull {
+        top: 66vw;
+        right: -4rem;
+    }
+    .menu::before {
+        height: 66.1vw;
+        top: -66vw; 
+    }
+    /* ABOUT */
+    .about-text {
+        font-size: 1.5rem;
+        line-height: 3rem;
+    }
+    /* CONTACT */
+    .email-sign {
+        width: 40%;
     }  
 }
 

@@ -93,7 +93,7 @@ section {
     line-height: 6.5rem;
 }
 
-/* PROJECTS */
+/* WEBSITES */
 .project-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -141,6 +141,8 @@ section {
     width: 40%;
     border: 1rem double black;
 }
+
+
 
 /* GRAPHIC DESIGNS */
 /* SLIDESHOW */
@@ -332,7 +334,7 @@ button:hover {
     font-size: 3.3rem;
     line-height: 6rem;
     }
-    /* PROJECTS */
+    /* WEBSITES */
     .project-container {
         width: 95%;
         margin: 2rem 3rem;
@@ -346,8 +348,6 @@ button:hover {
     .p1 {
         width: 75%;
     }
-    /* CONTACT */
-   
     /* FOOTER */
     .copyright {
         font-size: 1.3rem; 
@@ -366,7 +366,7 @@ button:hover {
     font-size: 3.3rem;
     line-height: 6rem;
     }
-    /* PROJECTS */
+    /* WEBSITES */
     .project-container {
         width: 95%;
         margin: 2rem 3rem;
@@ -421,7 +421,7 @@ button:hover {
         font-size: 3.1rem;
         line-height: 5.8rem;
     }
-    /* PROJECTS */
+    /* WEBSITES */
     .project-container {
         width: 100%;
         margin: 2rem 0;
@@ -460,7 +460,7 @@ button:hover {
         font-size: 2.8rem;
         line-height: 5.4rem;
     }
-    /* PROJECTS */
+    /* WEBSITES */
     .p1 {
         border: .6rem double white;
     }
@@ -500,9 +500,22 @@ button:hover {
         font-size: 2.2rem;
         line-height: 4.5rem;
     }
-    /* PROJECTS */
+    /* WEBSITES */
     .link {
         font-size: 2rem;
+    }
+    /* GRAPHIC DESIGNS */
+    /* SLIDESHOW */
+    .slide {
+        width: 70%;
+        margin: 4rem 0;
+    }   
+    /* ARROW BUTTONS */
+    .left {
+        font-size: 3.5rem;
+    }
+    .right {
+        font-size: 3.5rem;
     }
     /* CONTACT */
     .email-form {
@@ -535,6 +548,9 @@ button:hover {
     .nav-container {
         margin-bottom: 7rem; 
     }
+    .list-item a{
+        font-size: 2rem;
+    }
 }
 @media screen and (max-width: 595px) {
     /* .list-item a{
@@ -551,7 +567,7 @@ button:hover {
     .list-item a {
         font-size: 2rem;
     }
-    /* PROJECTS */
+    /* WEBSITES */
     .link {
         font-size: 1.7rem;
     }
@@ -588,9 +604,9 @@ button:hover {
         border-bottom: 1.2rem double rgb(255, 255, 255);
     }
     .list-item a {
-        font-size: 1.8rem;
+        font-size: 1.7rem;
     }
-    /* PROJECTS */
+    /* WEBSITES */
     .link {
         font-size: 1.5rem;
     }
@@ -599,6 +615,18 @@ button:hover {
     }
     .p3 {
         width: 60%;
+    }
+    /* GRAPHIC DESIGNS */
+    /* SLIDESHOW */
+    .slide {
+        width: 80%;
+    }   
+    /* ARROW BUTTONS */
+    .left {
+        font-size: 3rem;
+    }
+    .right {
+        font-size: 3rem;
     }
     /* FOOTER */
     .footer {
@@ -614,7 +642,11 @@ button:hover {
     #container {
         padding: 1rem 2rem;
     }
-    /* PROJECTS */
+    /* NAV LOGO HEADER */
+    .list-item a {
+        font-size: 1.3rem;
+    }
+    /* WEBSITES */
     .project-container {
         grid-template-columns: 1fr;
     }
@@ -645,12 +677,25 @@ button:hover {
         border-bottom: 1rem double rgb(255, 255, 255);
     }
     .list-item a {
-        font-size: 1.6rem;
+        font-size: 1.1rem;
     }
     /* ABOUT */
     .about-text {
         font-size: 2rem;
         line-height: 4rem;
+    }
+    /* GRAPHIC DESIGNS */
+    /* SLIDESHOW */
+    .slide {
+        width: 90%;
+        margin: 3rem 0;
+    }   
+    /* ARROW BUTTONS */
+    .left {
+        font-size: 2.5rem;
+    }
+    .right {
+        font-size: 2.5rem;
     }
     /* FOOTER */
     .footer {
@@ -682,14 +727,14 @@ button:hover {
         border-bottom: 1rem double rgb(255, 255, 255);
     }
     .list-item a {
-        font-size: 1.3rem;
+        font-size: .9rem;
     }
     /* ABOUT */
     .about-text {
         font-size: 1.5rem;
         line-height: 2.5rem;
     }
-    /* PROJECTS */
+    /* WEBSITES */
     .p2 {
         width: 65%;
     }
@@ -732,7 +777,7 @@ button:hover {
         border-bottom: .5rem double rgb(255, 255, 255);
     }
     .list-item a {
-        font-size: 1rem;
+        font-size: .7rem;
     }
     /* ABOUT */
     .about-text {

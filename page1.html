@@ -27,7 +27,8 @@
     <div>
         <ul class="nav-container">
             <li class="list-item"><a href="page1.html#about">About</a></li>
-            <li class="list-item"><a href="page1.html#projects">Projects</a></li>
+            <li class="list-item"><a href="page1.html#websites">Websites</a></li>
+            <li class="list-item"><a href="page1.html#graphic-designs">Graphic Designs</a></li>
             <li class="list-item"><a href="page1.html#contact">Contact</a></li>
         </ul>
     </div>
@@ -44,11 +45,11 @@
         </section>
         </div>
 
-    <!-- PROJECTS -->
+    <!-- WEBSITES -->
 
     <div id="container">
-        <header id="projects" class='header'>
-            <h2>projects</h2>
+        <header id="websites" class='header'>
+            <h2>websites</h2>
         </header>
         
         <section>
@@ -73,6 +74,60 @@
             </div>
         </section>
         </div>
+
+        <!-- GRAPHIC DESIGNS -->
+
+    <div id="container">
+        <header id="graphic-designs" class='header'>
+            <h2>graphic designs</h2>
+        </header>
+        
+        <section>
+            <p class="about-text">A collection of album/production art, social media posts, and logos</p>
+             <!-- SLIDESHOW  -->
+            
+            <div class="slideshow-wrapper">
+                <div class="slide">
+                    <img class="art1" src="images/Ryne Album Art  DIFF-FONT-SIZE.jpg">
+                </div>
+                
+                <div class="slide">
+                    <img class="art1" src="images/COMMODORE flyer.png">
+                </div>
+
+                <div class="slide">
+                    <img class="art1" src="images/NOV 18 flyer edits.jpg">
+                </div>
+
+                <div class="slide">
+                    <img class="art1" src="images/Oct 12 Flyer Edits.jpg">
+                </div>
+
+                <div class="slide">
+                    <img class="art1" src="images/APB flyer for Facebook.png">
+                </div>
+
+                <div class="slide">
+                    <img class="art1" src="images/Open House Flyer.png">
+                </div>
+
+                <div class="slide">
+                    <img class="art1" src="images/dead still film 2.jpg">
+                </div>
+
+                <div class="slide">
+                    <img class="art1" src="images/vh logo.png">
+                </div>
+            </div>
+          
+
+
+        <div class="arrows">  
+        <button class='left' type='button' onclick="plusDivs(-1)"><i class="fas fa-chevron-left"></i></button>
+        <button class='right' type='button' onclick="plusDivs(+1)"><i class="fas fa-chevron-right"></i></i></button>
+        </div>
+    </section>
+    </div>
 
     <!-- CONTACT -->
     <div id="container">
@@ -101,8 +156,43 @@
 
         
 <script>
-    //FORM SUBMIT 
 
+    //SLIDESHOW
+
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("slide");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "flex";
+}
+
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("slide");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1}
+  x[slideIndex-1].style.display = "flex";
+  setTimeout(carousel, 5000); 
+}
+    
+//FORM SUBMIT 
 window.addEventListener("DOMContentLoaded", function () {
     // get the form elements defined in your form HTML above
   
@@ -148,6 +238,12 @@ window.addEventListener("DOMContentLoaded", function () {
     };
     xhr.send(data);
   }  
+
+
+
+
+
+
 </script>
 
 </body>

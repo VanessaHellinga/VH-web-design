@@ -80,11 +80,6 @@ section {
 }
 
 .list-item a:hover {
-    /* color: #A68D44; */
-    /* color: #F2D95C; */
-    /* color: #F2E8B3; */
-    /* color: #BBBF3B; */
-    /* color: #A67A46; */
     color: #D90467;
 }
 
@@ -146,6 +141,51 @@ section {
     width: 40%;
     border: 1rem double black;
 }
+
+/* GRAPHIC DESIGNS */
+/* SLIDESHOW */
+.slideshow-wrapper {
+    display: flex;
+    justify-content: center;
+}
+.slide {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    border: .1rem solid grey;
+    border-radius: .5rem;
+    margin: 5rem 0;
+    padding: 3rem 0;
+    box-shadow: .1rem 1rem 3rem .3rem black;
+}
+
+.art1 {
+    width: 90%;
+}
+
+/* ARROW BUTTONS */
+.arrows {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left {
+    border: none;
+    color: black;
+    font-size: 4rem;
+}
+
+.right {
+    border: none;
+    color: black;
+    font-size: 4rem;
+}
+
+button:hover {
+    color: #D90467;
+}
+
+
 
 /* CONTACT */
 .form-container {
